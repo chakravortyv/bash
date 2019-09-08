@@ -30,7 +30,7 @@ shopt -s checkwinsize
 # make less more friendly for non-text input files, see lesspipe(1)
 [ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
-PS1='\u@\h:$PWD\n\$ '
+PS1='\n\u@\h:$PWD\n\$ '
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in

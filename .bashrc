@@ -10,7 +10,7 @@
 
 alias ls='ls -p'
 alias vi='vim'
-PS1='\n[\u@\h:$PWD]\n\$ '
+PS1='\n\t [\u@\h:$PWD]\n\$ '
 
 
 ##############################
